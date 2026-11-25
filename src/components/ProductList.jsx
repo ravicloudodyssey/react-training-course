@@ -1,7 +1,7 @@
 function ProductList(product) {
 
     // here we are receiving the product details as props from the parent component
-    // The [product] is the parameter which recives the props 
+    // The [product] is the parameter which recives the props from the partent component
 
     return (
         <div className="product-list">
