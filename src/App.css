@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,126 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #09090b;
+  color: #ffffff;
+}
+
+/* Header */
+.header {
+  background-color: #18181b;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #27272a;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.header-button {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header-button:hover {
+  background-color: #6d28d9;
+}
+
+/* Main Container */
+.app-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* Product Card CSS */
+
+.product-list {
+  background-color: #18181b;
+  padding: 25px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+}
+
+.product-list h2 {
+  color: #a78bfa;
+  margin-bottom: 20px;
+}
+
+.product-list p {
+  margin-bottom: 15px;
+  color: #d4d4d8;
+}
+
+/* Customer Card CSS*/
+
+.customer-detail {
+  background-color: #183a4b;
+  padding: 25px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.customer-detail h2 {
+  color: #60a5fa;
+  margin-bottom: 20px;
+}
+
+.customer-detail p {
+  margin-bottom: 15px;
+  color: #d4d4d8;
+}
+
+/* Order Card CSS */
+
+.order-detail {
+  background-color: #18181b;
+  padding: 25px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+}
+
+.order-detail h2 {
+  color: #34d399;
+  margin-bottom: 20px;
+}
+
+.order-detail p {
+  margin-bottom: 15px;
+  color: #d4d4d8;
+}
+
+/* Footer CSS */
+
+.footer {
+  background-color: #18181b;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #27272a;
+  color: #a1a1aa;
+}
+
