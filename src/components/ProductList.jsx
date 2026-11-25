@@ -7,7 +7,7 @@ function ProductList(product) {
         <div className="product-list">
             <h2>Product List</h2>
 
-            {/* here we are displaying the product details in the UI by using the props we received from the parent component */}
+            {/*  here we are displaying the product details in the UI by using the props we received from the parent component */}
 
             <p>Name: {product.Name}</p>
             <p>Brand: {product.Brand}</p>
