@@ -5,10 +5,10 @@ function OrderDetail({ OrderID, Product, Quantity, status }) {
 
             {/* this is the prop destructuring  : so we dont have to use product. repeatedly for all...  */}
 
-            <p>Order ID: {OrderID}</p>
+            <p>Order ID: # {OrderID}</p>
             <p>Product: {Product}</p>
-            <p>Quantity: {Quantity}</p>
-            <p>Status: {status}</p>
+            <p>Quantity: {Quantity} nos</p>
+            <p>Status: <strong>{status}</strong></p>
         </div>
     );
 }
