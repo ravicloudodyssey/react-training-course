@@ -1,10 +1,10 @@
 
-function Comp1(props1) {
+function Comp1({students}) {
     return(
         <div>
       <h3>Component 1 - Students List</h3>
 
-      {props1.students.map((student) => (
+      {students.map((student) => (
         <div className="student" key={student.id}>
           <p>Name: {student.name}</p>
           <p>Age: {student.age}</p>

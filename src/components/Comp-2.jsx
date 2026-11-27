@@ -1,10 +1,10 @@
 
-function Comp2(props2) {
+function Comp2({courses}) {
     return (
         <div>
             <h3>Component 2 - Courses List</h3>
 
-            {props2.courses.map((course) => (
+            {courses.map((course) => (
                 <div key={course.id}>
                     <p>Course: {course.course}</p>
                     <p>Duration: {course.duration}</p>
